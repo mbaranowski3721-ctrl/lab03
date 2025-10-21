@@ -3,19 +3,26 @@ using namespace std;
 
 int main()
 {
+    //Zadanie 1
+    cout << "Zadanie1" << endl;
     int a, b;
-    cout << "Wprowadź pierwszą zmienną: ";
+    cout << "Wprowadz pierwsza zmienna: ";
     cin >> a;
-    cout << "Wprowadź drugą zmienną: ";
+    cout << "Wprowadz druga zmienna: ";
     cin >> b;
     if (a == b) {
-        cout << "Liczby są równe";
+        cout << "Liczby sa rowne";
     }
-    else if(a<b) {
+    else if(a < b) {
         cout << "Zmienna a jest mniejsza od zmiennej b";
     }
     else {
         cout << "Zmienna b jest mniejsza od zmiennej a";
     }
+    cout << endl;
+
+    //Zadanie 2
+    cout << "Zadanie2" << endl;
+
 }
 
