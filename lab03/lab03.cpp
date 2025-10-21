@@ -23,7 +23,7 @@ int main()
     }
     cout << endl;
     */
-
+    /*
     //Zadanie 2
     cout << "Zadanie2" << endl;
 
@@ -33,6 +33,21 @@ int main()
     cout << "Wprowadz druga zmienna: ";
     cin >> b;
 
+    if (a == b) {
+        cout << "Liczby sa takie same";
+    }
+    else {
+        if (a < b) {
+            cout << "Zmienna a jest mniejsza od zmiennej b";
+        }
+        else {
+            cout << "Zmienna b jest mniejsza od zmiennej a";
+        }
+    }
+    */
+
+
+        
     
 
 
