@@ -46,29 +46,32 @@ int main()
     }
     */
     
-    /* ???????????????????????????????????????????????
+    /*
     cout << "Zadanie 3" << endl;
-    int r;
+    float r;
     cout << "Podaj r: ";
     cin >> r;
 
-    if (0.7 <= r && r <= 1) {
+    if (r <= 1 && r >= 0.69) {
         cout << "Bardzo silna korelacja dodatnia";
     }
-    else if (0.5 <= r && r < 0.7) {
+    else if (r < 0.69 && r >= 0.5) {
         cout << "Silna korelacja dodatnia";
     }
-    else if (0.3 <= r && r < 0.5) {
+    else if (r < 0.5 && r >= 0.3) {
         cout << "Umiarkowana korelacja dodatnia";
     }
-    else if (0.2 <= r && r < 0.3) {
+    else if (r < 0.3 && r >= 0.2) {
         cout << "Slaba korelacja dodatnia";
     }
-    else if (0 <= r && r < 0.2) {
+    else if (r < 0.2 && r >= 0) {
         cout << "Brak korelacji";
     }
+    else {
+        cout << "Zakres r od 0 do 1";
+    }
     */
-
+    /*
     cout << "Zadanie 4" << endl;
     float a;
     float b;
@@ -83,12 +86,53 @@ int main()
     switch (znak) {
     case '*': cout << a * b; break;
     case '+': cout << a + b; break;
+    case '/': if (b == 0) {
+        cout << "Nie dzielimy przez 0";
     }
+            else {
+        cout << a / b; break;
+    }
+    case '-': cout << a - b; break;
+    default: cout << "Wybrany nieznany znak"; break;
+    }
+    */
+    /*
+    cout << "Zadanie 5" << endl;
+    while (1) {
+        cout << "xd";
+    }
+    */
 
+    cout << "Zadanie 6" << endl;
+    char d;
+    float a;
+    float b;
+    char znak;
+    bool xd = true;
+    while (xd) {
+        cout << "Podaj a: ";
+        cin >> a;
+        cout << "Podaj b: ";
+        cin >> b;
+        cout << "Podaj znak: ";
+        cin >> znak;
 
+        switch (znak) {
+        case '*': cout << a * b << endl; break;
+        case '+': cout << a + b << endl; break;
+        case '/': if (b == 0) {
+            cout << "Nie dzielimy przez 0";
+        }
+                else {
+            cout << a / b << endl; break;
+        }
+        case '-': cout << a - b << endl; break;
+        default: cout << "Wybrany nieznany znak" << endl; break;
+        }
+        cout << "Czy zakonczyc dzialanie kalkulatora? Tak lub Nie: ";
+        cin >> d;
+         
         
-    
-
-
+    }
 }
 
